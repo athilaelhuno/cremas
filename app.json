@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cremas-app",
-    "slug": "cremas-app",
+    "name": "Cremas",
+    "slug": "cremas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,7 +19,19 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "Cremas",
+      "shortName": "Cremas",
+      "lang": "es",
+      "themeColor": "#FBF7F4",
+      "backgroundColor": "#FBF7F4",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "baseUrl": "/cremas"
     }
   }
 }
