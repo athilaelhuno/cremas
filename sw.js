@@ -1,5 +1,5 @@
-const CACHE = 'cremas-fe1bb31d0136';
-const URLS = ["./","_expo/static/js/web/index-5c517e01e68562f09a26f4be31a8c3d1.js","apple-touch-icon.png","favicon.ico","icon-192.png","icon-512-maskable.png","icon-512.png","manifest.json"];
+const CACHE = 'cremas-ad5681a0aecb';
+const URLS = ["./","_expo/static/js/web/index-4c8315adbfc83e20a24f643cb640bb16.js","apple-touch-icon.png","favicon.ico","icon-192.png","icon-512-maskable.png","icon-512.png","manifest.json"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(URLS)).then(() => self.skipWaiting()));
