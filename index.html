@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>Cremas</title>
+    <!-- PWA: rutas relativas para que funcione bajo el subpath de GitHub Pages -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#FBF7F4" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Cremas" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+        background-color: #FBF7F4;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js').catch((e) => console.error('SW:', e));
+        });
+      }
+    </script>
+  <meta name="theme-color" content="#FBF7F4">
+<link rel="icon" href="/cremas/favicon.ico"/></head>
+
+  <body>
+    <noscript>
+      Necesitas activar JavaScript para usar esta app.
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/cremas/_expo/static/js/web/index-5c517e01e68562f09a26f4be31a8c3d1.js" defer></script>
+</body>
+</html>
