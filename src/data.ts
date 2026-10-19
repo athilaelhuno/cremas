@@ -161,8 +161,8 @@ export const PRODUCTOS: Producto[] = [
 
   // ---- Cremas de noche (págs. 10 y 11) ----
   {
-    id: 'vitacil',
-    nombre: 'Vitacil',
+    id: 'vitaoil',
+    nombre: 'Vitaoil',
     tipos: ['Crema de noche'],
     principios: ['Vitamina E', 'Vitamina F'],
     principiosTexto: 'Vitaminas E y F',
